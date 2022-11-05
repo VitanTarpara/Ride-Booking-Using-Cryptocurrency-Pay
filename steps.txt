@@ -1,0 +1,92 @@
+npx create-next-app@latest .
+vercel
+vercel login github
+
+> Log in to Vercel github
+> Success! GitHub authentication complete for mahirshaikh932002@gmail.com
+? Set up and deploy “E:\Study\Sem-7\SGP\car-pooling-blockchain”? [Y/n] y
+? Which scope do you want to deploy to? mahir09
+? Link to existing project? [y/N] n
+? What’s your project’s name? car-pooling-blockchain
+? In which directory is your code located? ./
+Local settings detected in vercel.json:
+Auto-detected Project Settings (Next.js):
+- Build Command: next build
+- Development Command: next dev --port $PORT
+- Install Command: `yarn install`, `pnpm install`, or `npm install`
+- Output Directory: Next.js default
+? Want to modify these settings? [y/N] n
+🔗  Linked to mahir09/car-pooling-blockchain (created .vercel and added it to .gitignore)
+🔍  Inspect: https://vercel.com/mahir09/car-pooling-blockchain/BajSkohob52gRTfsujrj7QqYK2PV [2s]
+✅  Production: https://car-pooling-blockchain-mu.vercel.app [31s]
+📝  Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
+💡  To change the domain or build command, go to https://vercel.com/mahir09/car-pooling-blockchain/settings
+
+vercel dev(Run app)
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+npm install react-icons
+npm install mapbox-gl
+
+mkdir studio
+npm install -g @sanity/cli
+sanity init --coupon cleverprogrammer
+
+Login type GitHub
+Login successful
+Good stuff, you're now authenticated. You'll need a project to keep your
+datasets and collaborators safe and snug.
+? Project name: car-pooling-blockchain
+Your content will be stored in a dataset that can be public or private, depending on
+whether you want to query your content with or without authentication.
+The default dataset configuration has a public dataset named "production".
+? Use the default dataset configuration? Yes
+✔ Creating dataset
+? Project output path: E:\Study\Sem-7\SGP\car-pooling-blockchain\studio
+? Select project template Clean project with no predefined schemas
+✔ Bootstrapping files from template
+✔ Resolving latest module versions
+✔ Creating default project files
+✔ Saved lockfile
+Success! Now, use these commands to continue:
+First: cd E:\Study\Sem-7\SGP\car-pooling-blockchain\studio - to enter project’s directory
+Then:  sanity start - to run Sanity Studio
+
+cd studio
+sanity start
+
+sanity deploy
+✔ Checking project info
+Your project has not been assigned a studio hostname.
+To deploy your Sanity Studio to our hosted Sanity.Studio service,
+you will need one. Please enter the part you want to use.
+? Studio hostname (<value>.sanity.studio): car-pooling
+✔ Clearing output folder (5ms)
+✔ Building Sanity (17725ms)
+✔ Building index document (31ms)
+✔ Minifying JavaScript bundles (35505ms)
+✔ Verifying local content
+✔ Deploying to Sanity.Studio
+Success! Studio deployed to https://car-pooling.sanity.studio/
+
+
+npm install -g @sanity/client
+
+https://api.mapbox.com/geocoding/v5/mapbox.places
+
+
+## How to run this project
+
+Terminal 1 :
+vercel dev
+
+Terminal 2 : 
+cd studio
+sanity start
+
+
+
+
+
